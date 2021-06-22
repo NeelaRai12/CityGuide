@@ -30,7 +30,7 @@
 			$username=$_POST['username'];
 			$password=$_POST['password'];
 			
-			$query="select * from fileuploadtable WHERE username='$username' AND password='$password'";
+			$query="select * from fileuploadtables WHERE username='$username' AND password='$password'";
 			
 			$query_run = mysqli_query($con,$query);
 			if(mysqli_num_rows($query_run)>0)
