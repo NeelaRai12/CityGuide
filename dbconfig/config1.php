@@ -1,8 +1,4 @@
-<?php 
-$con = mysqli_connect ("localhost", "root", "") or die ('I cannot connect to the database because: ' . mysql_error());
-mysqli_select_db ($con,'cityguidedb');
-
-
+<?php
 $server = "localhost";
 $username = "root";
 $password = "";
@@ -14,6 +10,3 @@ if (!$conn) {
     die("<script>alert('Connection Failed.')</script>");
 }
 ?>
-
-
-

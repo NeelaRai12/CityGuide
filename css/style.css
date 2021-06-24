@@ -6,7 +6,7 @@
 .header
 {
 	height: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/back.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -16,8 +16,10 @@
 }
 .header img
 {
-	width: 350px;
+	width: 300px;
 	float:left;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .header h1
 {
@@ -249,3 +251,11 @@
 {
 	text-align: center;
 }
+
+.mainfeatures
+{
+	padding: 100px 0;
+	background: #efefef;
+}
+
+ 
